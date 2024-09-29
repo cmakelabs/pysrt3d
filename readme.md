@@ -39,6 +39,7 @@ pip install .
 
 
 ## Demo
+\* *The demo data is from [DeepAC](https://github.com/WangLongZJU/DeepAC)*.
 ```
 cd ${repo_root}/example
 python demo.py
