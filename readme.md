@@ -3,6 +3,10 @@
 Python binding for [*SRT3D: Region-Based 6DoF Object Tracking*](https://github.com/DLR-RM/3DObjectTracking/tree/master/SRT3D)
 
 
+https://github.com/user-attachments/assets/836877be-0909-4f06-ac3d-4bee9812d429
+
+
+
 ## Modification
 #### 1. Automatical body-diameter calculation
 You don't need to specify `max_body_diameter` manually, just as [*M3T*](https://github.com/DLR-RM/3DObjectTracking/tree/master/M3T).
