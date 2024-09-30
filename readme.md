@@ -12,12 +12,12 @@ https://github.com/user-attachments/assets/836877be-0909-4f06-ac3d-4bee9812d429
 You don't need to specify `max_body_diameter` manually, just as [*M3T*](https://github.com/DLR-RM/3DObjectTracking/tree/master/M3T).
 
 #### 2. Kullback-Leibler divergence based confidence assessment 
-If the predicted pose is good (close to the reality), the mean value of each correspondence line will be zero (at the center, without offset). We calculate KL divergence for each correspodence line and the optimal one: $\mathcal{N}(0, \sigma_{min}^2)$.
+If the predicted pose is good (close to the reality), the mean value of each correspondence line will be zero (at the center, without offset). We calculate KL divergence for each correspondence line and the optimal one: $\mathcal{N}(0, \sigma_{min}^2)$.
 
 #### 3. Thresholds for initialization and tracking
-We define thresholds for initialization and tracking (you can manually set them), so that you can easily align the object to the virtual one before start tracking.
+We define thresholds for initialization and tracking (you can manually set them), so that you can easily align the object to the virtual one before starting tracking.
 
-#### 4. Independent multi-model tracing
+#### 4. Independent multi-model tracking
 The confidences are calculated independently. You can easily add models and get their information (pose, conf., etc.).
 
 
